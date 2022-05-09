@@ -1,0 +1,14 @@
+body {
+    min-height: 200px;
+    padding-top: 70px;
+    
+  }
+ @media print {
+     .container {
+         margin-top: -30px;
+     }
+     #tombol,
+    .noprint {
+       display: none;
+    }
+ }
